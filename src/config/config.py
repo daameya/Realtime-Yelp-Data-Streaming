@@ -9,5 +9,10 @@ config = {
         'security.protocol': 'SASL_SSL',
         'sasl.mechanisms': 'PLAIN',
         'session.timeout.ms': 50000
+    },
+    "schema_registry": {
+        "url": "SCHEMA_REGISTRY_URL",
+        "basic.auth.user.info": "SR_API_KEY:SR_API_SECRET"
+
     }
 }
